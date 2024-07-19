@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import './VerticalTimeline.css';
+import './verticalTimeline.css';
 
 const VerticalTimeline = () => {
   const [events, setEvents] = useState([
