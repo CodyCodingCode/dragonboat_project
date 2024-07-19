@@ -1,0 +1,50 @@
+.timeline-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.event-date {
+  font-weight: bold;
+}
+
+.event-title {
+  margin-top: 5px;
+}
